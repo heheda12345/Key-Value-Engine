@@ -1,0 +1,54 @@
+Total: 253 samples
+      35  13.8%  13.8%       35  13.8% mehcached_pow_approx
+      26  10.3%  24.1%       40  15.8% __GI___pthread_mutex_lock
+      26  10.3%  34.4%       26  10.3% __GI_strlen
+      26  10.3%  44.7%       26  10.3% __memcpy_avx_unaligned
+      23   9.1%  53.8%       23   9.1% memcpy (inline)
+      21   8.3%  62.1%       28  11.1% polar_race::Bucket::insert
+      14   5.5%  67.6%       14   5.5% __lll_lock_wait
+      12   4.7%  72.3%       12   4.7% __lll_unlock_wake
+      12   4.7%  77.1%       12   4.7% std::__mutex_base::__mutex_base (inline)
+      10   4.0%  81.0%       10   4.0% polar_race::Bucket::find
+       8   3.2%  84.2%       51  20.2% mehcached_zipf_next
+       5   2.0%  86.2%        5   2.0% __memset_avx2
+       4   1.6%  87.7%      234  92.5% bench_thread
+       4   1.6%  89.3%        4   1.6% mehcached_rand_d
+       4   1.6%  90.9%       27  10.7% mehcached_zeta
+       4   1.6%  92.5%       43  17.0% polar_race::EngineRace::Read
+       3   1.2%  93.7%       15   5.9% __GI___pthread_mutex_unlock
+       3   1.2%  94.9%        3   1.2% std::__atomic_base::fetch_add (inline)
+       2   0.8%  95.7%        2   0.8% polar_race::Bucket::init
+       2   0.8%  96.4%        2   0.8% rand_r
+       2   0.8%  97.2%       28  11.1% std::__cxx11::basic_string::_M_assign
+       1   0.4%  97.6%        1   0.4% __pthread_cond_broadcast
+       1   0.4%  98.0%      106  41.9% polar_race::EngineRace::Write
+       1   0.4%  98.4%        1   0.4% polar_race::Hash::exist
+       1   0.4%  98.8%        1   0.4% polar_race::PolarString::PolarString@4042e6
+       1   0.4%  99.2%       27  10.7% polar_race::PolarString::PolarString@404310
+       1   0.4%  99.6%        1   0.4% polar_race::keyToInt
+       1   0.4% 100.0%       29  11.5% std::__cxx11::basic_string::assign (inline)
+       0   0.0% 100.0%        3   1.2% RWLock::lock_write (inline)
+       0   0.0% 100.0%        2   0.8% RWLock::release_write (inline)
+       0   0.0% 100.0%      234  92.5% __clone
+       0   0.0% 100.0%       40  15.8% __gthread_mutex_lock (inline)
+       0   0.0% 100.0%       15   5.9% __gthread_mutex_unlock (inline)
+       0   0.0% 100.0%       19   7.5% __libc_start_main
+       0   0.0% 100.0%       19   7.5% _start
+       0   0.0% 100.0%       19   7.5% main
+       0   0.0% 100.0%       19   7.5% polar_race::EngineRace::Open
+       0   0.0% 100.0%       26  10.3% polar_race::IO::newKey
+       0   0.0% 100.0%       29  11.5% polar_race::StArray::extract (inline)
+       0   0.0% 100.0%      234  92.5% start_thread
+       0   0.0% 100.0%      234  92.5% std::_Bind_simple::_M_invoke
+       0   0.0% 100.0%      234  92.5% std::_Bind_simple::operator
+       0   0.0% 100.0%       29  11.5% std::__cxx11::basic_string::operator= (inline)
+       0   0.0% 100.0%        1   0.4% std::condition_variable::notify_all
+       0   0.0% 100.0%       40  15.8% std::mutex::lock (inline)
+       0   0.0% 100.0%       12   4.7% std::mutex::mutex (inline)
+       0   0.0% 100.0%       15   5.9% std::mutex::unlock (inline)
+       0   0.0% 100.0%      234  92.5% std::this_thread::__sleep_for
+       0   0.0% 100.0%      234  92.5% std::thread::_Impl::_M_run
+       0   0.0% 100.0%        3   1.2% std::unique_lock::lock (inline)
+       0   0.0% 100.0%        3   1.2% std::unique_lock::unique_lock (inline)
+       0   0.0% 100.0%        1   0.4% std::unique_lock::unlock (inline)
+       0   0.0% 100.0%        1   0.4% std::unique_lock::~unique_lock (inline)
